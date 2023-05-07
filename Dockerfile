@@ -52,7 +52,6 @@ RUN set -eux; \
 COPY entrypoint.sh ${SONARQUBE_HOME}/docker/
 
 WORKDIR ${SONARQUBE_HOME}
-EXPOSE 9000
 
 USER sonarqube
 STOPSIGNAL SIGINT
