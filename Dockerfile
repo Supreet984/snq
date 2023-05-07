@@ -53,7 +53,6 @@ COPY entrypoint.sh ${SONARQUBE_HOME}/docker/
 
 WORKDIR ${SONARQUBE_HOME}
 
-
 USER sonarqube
 STOPSIGNAL SIGINT
 
